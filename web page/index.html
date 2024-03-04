@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="style.css"/>
+         <script src ="C:\my program\java.js">
+         </script>   
+    </head>
+
+   <center><h1>Registration Form</h1></center> <br> <br>
+  
+    <form action="take value()">
+        <label>First Name:-</label><br>
+        <input type="text" name="First name" placeholder="First" id="n1`" required/><br><br>
+        <label>Middle Name:-</label><br>
+        <input type="text" name="Middle Name" placeholder="Middle" id="n2" required/><br><br>
+        <label>Last Name:-</label><br>
+        <input type="text" Name="Last Name" placeholder="Last" id="n3" required/><br><br>
+        <label>
+            Course:
+        </label>
+        <select>
+            <option value="Course">Course</option>
+            <option value="MBA">MBA</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MCA">MCA</option>
+            <option vlaue="B.TECH">B.TECH</option>
+        </select>
+        <br>
+        <br><br>
+        <label>
+            Gender:-
+        </label><br>
+            <input type="Radio" name="male">Male<br>
+            <input type="Radio" Name="Female">Female<br>
+            <input type="Radio" Name="Other">Other<br><br>
+        <label>
+            Phone:
+        </label>
+        <input type="text" name="country code" value="+91" required/><br><br>
+       <label> Address:-</label><br><br>
+       <input type="text" area cols="90" rows="7" Placeholder="Address" value="Address" required/><br>
+	<center><input type="button" value="Submit" onclick="form()"></center>
+    </form>
+    <script>
+        function takevalue(){
+        
+            var n1 =document.getElementById("n1").value;
+            var n2 = document.detElementById("n2").value;
+            var n3= document.getElementByID("n3").value;
+    
+            document.write("name="+name);
+            document.write("name="+name);
+            document.write("name="+name);
+        }
+    </script>
+    </body>
+</html>
